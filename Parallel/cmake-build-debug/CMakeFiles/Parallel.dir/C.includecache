@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Elina/CLionProjects/Parallel/TaskTwo.c
+omp.h
+-
+stdio.h
+-
+
+C:/Users/Elina/CLionProjects/Parallel/main.c
+omp.h
+-
+stdio.h
+-
+

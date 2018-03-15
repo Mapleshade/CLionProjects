@@ -1,0 +1,21 @@
+cmake_minimum_required(VERSION 3.10)
+project(Parallel C)
+
+set(CMAKE_C_STANDARD 99)
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -std=gnu11 -fopenmp")
+
+
+#add_executable(Parallel main.c TaskTwo.c)
+add_executable(TaskOne TaskOne.c)
+add_executable(TaskTwo TaskTwo.c)
+add_executable(Task3 Task3.c)
+add_executable(Task4 Task4.c)
+add_executable(Task5 Task5.c)
+add_executable(Task6 Task6.c)
+add_executable(Task7 Task7.c)
+add_executable(Task8 Task8.c)
+add_executable(Task9 Task9.c)
+add_executable(Task10 Task10.c)
+add_executable(Task11 Task11.c)
+add_executable(Task12 Task12.c)
+add_executable(Task13 Task13.c)
