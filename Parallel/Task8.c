@@ -10,7 +10,7 @@
 
 void printArray(int a[], int numb) {
     for (int i = 0; i < numb; i++) {
-        printf("%.1f ", a[i]);
+        printf("%d ", a[i]);
     }
     printf("\n");
 }
@@ -23,29 +23,31 @@ int main() {
         a[i] = i;
     }
 
-    printArray(a, WOW);
+   // printArray(a, WOW);
+    double time = omp_get_wtime();
+#pragma omp parallel for schedule(static) num_threads(8) shared(b) private(time)
 
-#pragma omp parallel for schedule(static) num_threads(8) shared(b)
     for (int i = 1; i < WOW - 1; i++) {
         b[i] = (a[i - 1] + a[i] + a[i + 1]) * 1.0 / 3;
-        printf("%.0f:%d ", b[i], omp_get_thread_num());
+      //  printf("%.0f:%d ", b[i], omp_get_thread_num());
         if (i == WOW - 2) printf("\n");
     }
-
-#pragma omp parallel for schedule(dynamic) num_threads(8) shared(b)
+    printf("\n schedule(static) Time = %lf", (omp_get_wtime()-time)*1000);
+    time = omp_get_wtime();
+#pragma omp parallel for schedule(dynamic) num_threads(8) shared(b) private(time)
     for (int i = 1; i < WOW - 1; i++) {
         b[i] = (a[i - 1] + a[i] + a[i + 1]) * 1.0 / 3;
-        printf("%.0f:%d ", b[i], omp_get_thread_num());
+      //  printf("%.0f:%d ", b[i], omp_get_thread_num());
         if (i == WOW - 2) printf("\n");
     }
-
-#pragma omp parallel for schedule(dynamic, 3) num_threads(8) shared(b)
+    printf("\n schedule(dynamic) Time = %lf", (omp_get_wtime()-time)*1000);
+    time = omp_get_wtime();
+#pragma omp parallel for schedule(dynamic, 500) num_threads(8) shared(b) private(time)
     for (int i = 1; i < WOW - 1; i++) {
         b[i] = (a[i - 1] + a[i] + a[i + 1]) * 1.0 / 3;
-        printf("%.0f:%d ", b[i], omp_get_thread_num());
+       // printf("%.0f:%d ", b[i], omp_get_thread_num());
         if (i == WOW - 2) printf("\n");
     }
-
-    omp_get_wtime();
+    printf("\nschedule(dynamic, 3) Time = %lf", (omp_get_wtime()-time)*1000);
 
 }

@@ -35,35 +35,35 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Task10.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Task10.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Task13.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Task13.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-              <folding>
-                <element signature="e#224#240#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Task8.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Task8.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Task8.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            <state relative-caret-position="765">
+              <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
               <folding>
                 <element signature="e#402#418#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task10.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Task10.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+              <folding>
+                <element signature="e#395#411#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task7.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Task7.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -73,6 +73,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>total</find>
+      <find>omp_get_w</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -91,9 +92,9 @@
         <option value="$PROJECT_DIR$/TaskTwo.c" />
         <option value="$PROJECT_DIR$/Task13.c" />
         <option value="$PROJECT_DIR$/Task6.c" />
-        <option value="$PROJECT_DIR$/Task8.c" />
         <option value="$PROJECT_DIR$/Task4.c" />
         <option value="$PROJECT_DIR$/Task10.c" />
+        <option value="$PROJECT_DIR$/Task8.c" />
       </list>
     </option>
   </component>
@@ -103,7 +104,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="241" />
     <option name="width" value="1189" />
     <option name="height" value="1047" />
@@ -113,6 +114,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,7 +126,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -144,18 +145,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task10">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Parallel" RUN_TARGET_NAME="Task5" EXPLICIT_BUILD_TARGET_NAME="all" />
-    <configuration name="Task10" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Parallel" TARGET_NAME="Task10" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Parallel" RUN_TARGET_NAME="Task5" />
-    <configuration name="Task11" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Parallel" TARGET_NAME="Task11" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Parallel" RUN_TARGET_NAME="Task5" />
-    <configuration name="Task12" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Parallel" TARGET_NAME="Task12" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Parallel" RUN_TARGET_NAME="Task5" />
-    <configuration name="Task13" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Parallel" TARGET_NAME="Task13" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Parallel" RUN_TARGET_NAME="Task5" />
-    <configuration name="Task3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Parallel" TARGET_NAME="Task3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Parallel" RUN_TARGET_NAME="Task5" />
-    <configuration name="Task4" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Parallel" TARGET_NAME="Task4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Parallel" RUN_TARGET_NAME="Task5" />
-    <configuration name="Task5" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Parallel" TARGET_NAME="Task5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Parallel" RUN_TARGET_NAME="Task5" />
-    <configuration name="Task6" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Parallel" TARGET_NAME="Task6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Parallel" RUN_TARGET_NAME="Task6" />
-    <configuration name="Task7" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Parallel" TARGET_NAME="Task7" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Parallel" RUN_TARGET_NAME="Task9" />
-    <configuration name="Task8" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Parallel" TARGET_NAME="Task8" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Parallel" RUN_TARGET_NAME="Task9" />
+  <component name="RunManager" selected="Application.Task7">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Parallel" RUN_TARGET_NAME="Task7" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="Task10" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Parallel" TARGET_NAME="Task10" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Parallel" RUN_TARGET_NAME="Task7" />
+    <configuration name="Task11" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Parallel" TARGET_NAME="Task11" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Parallel" RUN_TARGET_NAME="Task7" />
+    <configuration name="Task12" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Parallel" TARGET_NAME="Task12" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Parallel" RUN_TARGET_NAME="Task7" />
+    <configuration name="Task13" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Parallel" TARGET_NAME="Task13" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Parallel" RUN_TARGET_NAME="Task7" />
+    <configuration name="Task3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Parallel" TARGET_NAME="Task3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Parallel" RUN_TARGET_NAME="Task7" />
+    <configuration name="Task4" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Parallel" TARGET_NAME="Task4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Parallel" RUN_TARGET_NAME="Task7" />
+    <configuration name="Task5" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Parallel" TARGET_NAME="Task5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Parallel" RUN_TARGET_NAME="Task7" />
+    <configuration name="Task6" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Parallel" TARGET_NAME="Task6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Parallel" RUN_TARGET_NAME="Task7" />
+    <configuration name="Task7" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Parallel" TARGET_NAME="Task7" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Parallel" RUN_TARGET_NAME="Task7" />
+    <configuration name="Task8" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Parallel" TARGET_NAME="Task8" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Parallel" RUN_TARGET_NAME="Task8" />
     <configuration name="Task9" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Parallel" TARGET_NAME="Task9" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Parallel" RUN_TARGET_NAME="Task9" />
     <configuration name="TaskOne" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Parallel" TARGET_NAME="TaskOne" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Parallel" RUN_TARGET_NAME="TaskTwo" />
     <configuration name="TaskTwo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Parallel" TARGET_NAME="TaskTwo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Parallel" RUN_TARGET_NAME="TaskTwo" />
@@ -190,21 +191,27 @@
       <workItem from="1520799648733" duration="1552000" />
       <workItem from="1520832923360" duration="14031000" />
       <workItem from="1521138260100" duration="11000" />
+      <workItem from="1521139585098" duration="332000" />
+      <workItem from="1521394109291" duration="1020000" />
+      <workItem from="1521438159459" duration="1337000" />
+      <workItem from="1521448025850" duration="2024000" />
+      <workItem from="1522057913382" duration="452000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25261000" />
+    <option name="totallyTimeSpent" value="30426000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.09583333" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.09583333" />
       <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.6110521" />
       <window_info anchor="bottom" id="CMake" order="4" weight="0.32943678" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.20722635" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.21253985" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -216,7 +223,6 @@
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32943678" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.6110521" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +237,43 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Task8.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="39" lean-forward="true" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+          <folding>
+            <element signature="e#402#418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task10.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+          <folding>
+            <element signature="e#395#411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task8.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#402#418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task9.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Task10.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
@@ -242,9 +285,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task8.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
           <folding>
-            <element signature="e#224#240#0" expanded="true" />
+            <element signature="e#402#418#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task10.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task13.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task8.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+          <folding>
+            <element signature="e#402#418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task10.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task13.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task8.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="e#402#418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task10.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task13.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -269,9 +381,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#224#240#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -286,9 +395,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-          <folding>
-            <element signature="e#224#240#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -317,20 +423,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-17">
           <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Task7.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Task9.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -369,30 +461,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Task10.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Task13.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-          <folding>
-            <element signature="e#224#240#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task9.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Task8.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        <state relative-caret-position="765">
+          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
           <folding>
             <element signature="e#402#418#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task10.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+          <folding>
+            <element signature="e#395#411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task7.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
         </state>
       </provider>
     </entry>
